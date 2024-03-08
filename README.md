@@ -10,7 +10,7 @@ Before following the next two steps, install Docker ([installation instructions 
 3. Create a folder, which is the one shared between the host and the docker container, `mkdir workspace`
 4. Run `docker-compose up --build`
 
-(`ros.env` contains environment variables for ROS that can be modified before running the command in step 3.)
+(`ros.env` contains environment variables for ROS that can be modified before running the command in step 4.)
 
 ## 2. Running a ROS gazebo simulation for testing
 Once the other terminal shows the following type of messages and remains running without errors
