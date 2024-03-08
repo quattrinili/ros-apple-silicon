@@ -7,7 +7,8 @@ Before following the next two steps, install Docker ([installation instructions 
 ## 1. Setup
 1. Open a terminal and clone this repository with the command `git clone https://github.com/jaismith/ros-apple-silicon`
 2. Enter in the cloned repository folder, `cd ros-apple-silicon`
-3. Run `docker-compose up --build`
+3. Create a folder, which is the one shared between the host and the docker container, `mkdir workspace`
+4. Run `docker-compose up --build`
 
 (`ros.env` contains environment variables for ROS that can be modified before running the command in step 3.)
 
