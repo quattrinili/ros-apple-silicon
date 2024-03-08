@@ -5,7 +5,7 @@ _This is an Apple Silicon adaptation of @quattrinili's guide [here](https://gith
 Before following the next two steps, install Docker ([installation instructions for Mac](https://docs.docker.com/docker-for-mac/install/).
 
 ## 1. Setup
-1. Open a terminal and clone this repository with the command `git clone https://github.com/jaismith/ros-apple-silicon`
+1. Open a terminal and clone this repository with the command `git clone https://github.com/quattrinili/ros-apple-silicon`
 2. Enter in the cloned repository folder, `cd ros-apple-silicon`
 3. Create a folder, which is the one shared between the host and the docker container, `mkdir workspace`
 4. Run `docker-compose up --build`
